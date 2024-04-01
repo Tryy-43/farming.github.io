@@ -1,0 +1,519 @@
+.wrapper .bodyContent{
+    height: calc(100vh - 45px);
+    padding:45px 0px 0px 0px;
+    background-image: url(https://wallpapercave.com/wp/wp9212753.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bodyContent .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+@font-face {
+    font-family:"RobotoLight" ;
+    src: url(/assets/fons/Roboto-Light.ttf);
+}
+.bodyContent .text .write{
+    font-family: "RobotoLight";
+    width: 490px;
+    font-size: 18px;
+    line-height: 37px;
+    color: #fffffff2;
+    padding: 24px 20px;
+    transition: .9s;
+}
+.bodyContent .text h2{
+    font-size: 100px;
+    transition: 1s;
+    color: #000000b7;
+}
+.bodyContent .text .write:hover{
+    scale: 0.9;
+}
+#havset{
+    color:#ffff00e3;
+    text-decoration: underline;
+}
+.bodyContent .text h2:hover{
+    scale: 1.1;
+}
+@font-face {
+    font-family:"RobotoLight" ;
+    src: url(/assets/fons/Roboto-Light.ttf);
+}
+.concept{
+    display: flex;
+    grid-template-columns: auto auto;
+    padding: 40px 40px;
+    justify-content: center !important ;
+    transition: all 1s;
+}
+.concept p{
+    font-family: "RobotoLight";
+    font-size: 17px;
+    padding-right: 70px;
+}
+.concept .textRight{
+    width: 50%;
+    line-height: 32px;
+    /* width: 415px; */
+    padding: 20px;
+    
+}
+.concept .textLeft{
+    width: 50%;
+    padding: 20px;
+}
+@font-face {
+    font-family:"OxygenRegular" ;
+    src: url(/assets/fons/Oxygen-Regular.ttf);
+}
+.concept .textLeft h3{
+    font-family: "OxygenRegular";
+    padding-left: 40px;
+}
+.concept .textLeft h2{
+    font-family: "OxygenRegular";
+    font-size: 35px;
+    width: 347px;
+    line-height: 39px;
+    padding: 15px 0px 0px 40px;
+}
+#view{
+    width: 114px;
+    height: 30px;
+    text-decoration: none;
+    color: black;
+    background: #ffd100;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 19px;
+    align-items: center;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#icon{
+    padding: 4px;
+    font-size: 16px;
+}
+.wrapper .photoGrid{
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    padding: 50px 0px;
+    grid-gap: 30px;
+}
+.item{
+    height: 468px;
+    width: 390px;
+}
+.photo{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.photo .agri{
+    margin-left: -32px;
+    transition: .7s;
+    /* overflow: hidden; */
+ 
+    max-width: 120%;
+}
+.photo::before{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    height: 50%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 130%) repeat scroll 0 0;
+    z-index: 1;
+}
+.photo .agri:hover{
+    margin-left: 0px;
+}
+.photo .content{
+    height: 50px;
+    z-index: 1;
+    padding: 20px 20px;
+    position: absolute;
+    display: flex;
+    /* background: red; */
+    width: auto;
+    align-items: center;
+    top: 380px;
+    left: 0px;
+}
+.photo .margin{
+    top:6px;
+}
+.content .icon{
+    width: 59px;
+}
+.content .icon img{
+    width: 51px;
+}
+.content .title h2{
+    color:#fff;
+    font-size: 19px;
+    line-height: 47px;
+    margin-top: -17px;
+}
+.content .title p{
+    color:#fff;
+    font-family:"RobotoLight" ;
+}
+.history{
+    width: 100%;
+    height: auto;
+    background-color: rgb(0 0 0 / 85%);
+    margin: 40px 0px;
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around ;
+    align-items:center;
+    text-align: center;
+    transition: all .7s;
+}
+.history .textConten1{
+    padding-top:60px;
+}
+.history .textConten1 h3{
+    color: #ffffff7a;
+    font-size: 26px;
+    line-height: 60px;
+}
+.history .image{
+    height: 50px;
+    width: auto;
+    padding: 20px 0px;
+}
+.history .image h1{
+    font-size: 88px;
+    color: #ffffffd6;
+}
+.history .textConten1 h1{
+    color: white;
+    position: relative;
+    line-height: 61px;
+    font-size: 40px;
+    font-family: "OxygenRegular";
+}
+.history .textConten1 h1::after{
+    content: " ";
+    border-bottom: 4px solid #fff401;
+    position: absolute;
+    width: 136px;
+    bottom: 6px;
+    left: 114px;
+}
+.history .textConten2{
+    width: 54%;
+    margin-top: 30px;
+    padding-bottom: 60px;
+}
+.history .textConten2 h2{
+    position: relative;
+    font-size: 26px;
+    font-family: "OxygenRegular";
+    line-height: 40px;
+    color: #ffffff;
+    
+}
+.history .textConten2 h2::after{
+    content: " ";
+    width: 130px;
+    position: absolute;
+    border-bottom: 4px solid black;
+    bottom: 0px;
+    margin-left: -128px;
+}
+.history .textConten2 p{
+    font-size: 16px;
+    width: auto;
+    line-height: 35px;
+    color: #fff;
+    font-weight: bold;
+    font-family:"RobotoLight" ;
+}
+.information .infor{
+    display: flex;
+    grid-template-columns: auto auto;
+    padding: 40px 0px;
+}
+.information .infor .imginfor{
+    
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+
+}
+.information .infor .textInfor{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.information .infor .imginfor img{
+    width: 90%;
+    /* padding: 20px; */
+    box-shadow: 1px 1px 15px;
+}
+.information .infor .iconInfor{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 25px;
+}
+.three{
+    width: auto;
+    font-family:"RobotoLight" ;
+    line-height: 36px;
+    color: #00000080;
+ 
+}
+.one{
+    font-size: 20px;
+    color: #00000059;
+    line-height: 60px;
+}
+.two{
+    font-size: 40px;
+    width: auto;
+    font-family:"RobotoLight" ;
+    line-height: 50px;
+    padding: 20px 0px;
+    padding-right: 0px;
+}
+.information .infor .iconInfor .iconfirst{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 200px;
+}
+.information .infor .iconInfor .iconfirst img{
+    width: 50px;
+}
+.information .infor .iconInfor .iconfirst .textfirst{
+    width: 200px;
+    font-size: 22px;
+    margin-top: 8px;
+    margin-left: 12px;
+}
+.information .infor .iconInfor .iconfirst .textfirst h3{
+    font-size: 18px;
+    margin-top: -14px;
+    font-family:"RobotoLight" ;
+}
+.information .infor .iconInfor .iconfirst .textfirst p{
+    font-size: 15px;
+    width: 140px;
+    line-height: 30px;
+    color: #00000080;
+    font-family:"RobotoLight" ;
+
+}
+@media screen and (max-width:965px) {
+    .information .infor {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .information .infor .imginfor {
+        width: 73%;
+    }
+    .information .infor .imginfor img {
+        width: 100%;
+    }
+    .information .infor .textInfor {
+        width: 73%;
+    }
+    .information .infor .iconInfor .iconfirst {
+        width: auto;
+    }
+    .information .infor .iconInfor .iconfirst .textfirst p {
+    width: auto;
+
+}
+}
+@media screen and (max-width:900px) {
+    .concept{
+        display: flex;
+        flex-direction: column;
+    }
+    #view{
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    .concept .textLeft{
+        width: auto;
+    }
+    .concept .textRight{
+        width: auto;
+    }
+    .concept .textLeft h2{
+        width: auto;
+    }
+    .concept p{
+        width: auto;
+        padding-left: 40px;
+        margin-top: -25px;
+        padding-right: 0px;
+    }
+}
+@media screen and (max-width:835px) {
+    .item {
+        height: 364px;
+        width: 300px;
+    }
+    .photo .agri{
+        max-width: 122%;
+    }
+    
+    .photo .content{
+        top: 274px;
+    }
+    .photo .margin{
+        top:0px
+    }
+}
+@media screen  and (max-width:770px) {
+    .bodyContent .text h2{
+        font-size: 60px;
+        color: #000000b7;
+    }
+    .bodyContent .text .write{
+        width: 430px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:690px) {
+    .item {
+        height: 292px;
+        width: 252px;
+    }
+    .photo .agri {
+        max-width: 116%;
+    }
+    .photo .content {
+        top: 204px;
+    }
+    .photo .margin {
+        top: -1px;
+    }
+    .history .textConten2 {
+        width: auto;
+        padding: 0px 50px;
+        padding-bottom: 60px;
+    }
+    .information .infor .iconInfor .iconfirst {
+        padding: 20px 0px;
+    }
+    .information .infor .iconInfor {
+        grid-template-columns: auto;
+    }
+}
+@media screen and (max-width:560px) {
+    .wrapper .photoGrid {
+        grid-template-columns: auto;
+    }
+    .item {
+        height: 407px;
+        width: 350px;
+    }
+    .photo .content {
+        top: 318px;
+    }
+}
+@media screen and (max-width:490px) {
+
+    .bodyContent .text h2{
+        font-size: 40px !important;
+        padding: 0px;
+    }   
+    .bodyContent .text .write{
+        width: auto;
+        font-size: 18px !important;
+        line-height: 35px;
+    }
+}
+@media screen and (max-width:450px) { 
+    
+    .history .textConten1 h1::after {
+        left: 90px;
+        width: 117px;
+    }
+    .history .textConten1 h1 {
+        font-size: 33px;
+    }
+}
+@media screen and (max-width:400px) {
+    .bodyContent .text h2{
+        font-size: 38px !important;
+    /* padding: 15px 0px 10px 20px !important; */
+        padding: 0px !important;
+    }   
+    .bodyContent .text .write{
+        width: auto;
+        font-size: 15px;
+        line-height: 28px;
+        padding: 20px 10px;
+    }
+    .concept{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+    #view{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .concept .textLeft{
+        width: auto;
+        padding: 0px;
+    }
+    .concept .textRight{
+        width: auto;
+        padding: 0px;
+    }
+    .concept .textLeft h2{
+        width: auto;
+        padding: 15px 0px 10px 20px;
+    }
+    .concept .textLeft  h3{
+        padding-left: 20px;
+    }
+    .concept p{
+        padding-right: 0px;
+        width: auto;
+        padding-left: 20px;
+        margin: 0px;
+    }
+    .history .textConten1 h1 {
+        font-size: 30px;
+    }
+    .history .textConten1 h1::after {
+        left: 81px;
+        width: 107px;
+    }
+    .history .textConten1 h3 {
+        font-size: 22px;
+    }
+    .history .image h1 {
+        font-size: 70px;
+    }
+}

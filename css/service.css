@@ -1,0 +1,166 @@
+.body_contet {
+    width: 100%;
+    display: flex;
+    margin-top: 2;
+    padding: 150px 0px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://validthemes.net/site-template/farmi/assets/img/banner/4.jpg);
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed !important;
+    background-position: center center !important;
+    height: calc(100vh - 45px);
+    background-size: cover !important;
+}
+.body_contet::after{
+    content: " ";
+    background-color: #00000012;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0px;
+}
+.container{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.texts{
+        /* width: 200px; */
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin: 30px 0px; */
+        margin-top: 60px;
+}
+.texts p{
+    font-family: "RobotoLight";
+    color: #ffff;
+    width: 450px;
+    line-height: 33px;
+    font-size: 17px;
+}
+.row{
+    padding: 0px 40px;
+    line-height: 40px;
+}
+.row h2{
+    font-family:"OxygenRegular" ;
+    color: #ffffffed;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home a{
+    text-decoration: none;
+    color: #ffff;
+    margin-right: 4px;
+    font-size: 20px;
+    font-family:"RobotoLight" ;
+}
+.home a span{
+    margin-right: 10px;
+}
+.home p{
+    color: #ffff;
+    font-size: 20px;
+    font-family:"RobotoLight" ;
+}
+.boxGrid{
+    width: auto;
+    height: auto;
+    padding: 50px 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    justify-content: center;
+    align-items: center;
+}
+.items{
+    width: 180px;
+    padding: 30px 20px;
+    height: 300px;
+    border-right: 1px solid #ffaa00;
+    position: relative;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+
+}
+.group img{
+    width: 100%;
+}
+.textGroup{
+    height: 123px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.textGroup h4{
+    font-family:"OxygenRegular" ;
+    color:#000000cc;
+    font-size: 18px;
+    line-height: 43px;
+}
+.textGroup p{
+    font-family: "RobotoLight";
+    font-size: 16px;
+    line-height: 30px;
+    color: gray;    
+    width: 175px;
+}
+@media screen and (max-width:920px) {
+    .boxGrid{
+        grid-template-columns: auto auto ;
+        grid-gap:30px;
+    }
+    .items{
+        width: 220px;
+        padding: 40px;
+        height: 300px;
+        border: 1px solid #ffffff00;
+        background: #ffff;
+        box-shadow: 0px 0px 10px #0000004a;
+    }
+}
+@media screen and (max-width:670px) {
+    .boxGrid{
+        grid-template-columns: auto;
+        width: auto;
+        height: auto;
+        padding: 80px 120px;
+    }
+    .texts{
+        padding: 0px 20px;
+    }
+    .texts p{
+        width: auto;
+    }
+    .items{
+        width: auto;
+
+    }
+    .textGroup{
+        width: auto;
+        height: auto;
+    }
+    .textGroup p {
+        width: auto;
+    }
+    .textGroup h4{
+        font-size: 20px;
+    }
+}
