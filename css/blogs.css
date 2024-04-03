@@ -1,183 +1,183 @@
 .body_contet {
-    width: 100%;
-    display: flex;
-    margin-top: 2;
-    /* padding: 150px 0px; */
-    justify-content: center;
-    align-items: center;
-    background-image: url(	https://validthemes.net/site-template/farmi/assets/img/banner/9.jpg);
-    position: relative;
-    z-index: 1;
-    background-attachment: fixed !important;
-    background-position: center center !important;
-    height: calc(100vh - 45px);
-    background-size: cover !important;
+  width: 100%;
+  display: flex;
+  margin-top: 2;
+  /* padding: 150px 0px; */
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://validthemes.net/site-template/farmi/assets/img/banner/9.jpg);
+  position: relative;
+  z-index: 1;
+  background-attachment: fixed !important;
+  background-position: center center !important;
+  height: calc(100vh - 45px);
+  background-size: cover !important;
 }
 @font-face {
-    font-family: "OxygenRegular";
-    src: url(/assets/fons/Oxygen-Regular.ttf);
+  font-family: "OxygenRegular";
+  src: url(fons/Oxygen-Regular.ttf);
 }
 @font-face {
-    font-family: "RobotoLight";
-    src: url(/assets/fons/Roboto-Light.ttf);
+  font-family: "RobotoLight";
+  src: url(fons/Roboto-Light.ttf);
 }
-.body_contet::after{
-    content: " ";
-    background-color: #00000012;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    top: 0px;
+.body_contet::after {
+  content: " ";
+  background-color: #00000012;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0px;
 }
-.container{
-    width: auto;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
+.container {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
 }
-.row h2{
-    color: #fff;
-    font-size: 40px;
-    font-family: "OxygenRegular";
+.row h2 {
+  color: #fff;
+  font-size: 40px;
+  font-family: "OxygenRegular";
 }
-.home{
-    display: flex;
-    margin-top: 20px;
-    text-align: center;
-    justify-content: center;
+.home {
+  display: flex;
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
 }
-.home a{
-    text-decoration: none;
-    color:#ffff;
-    font-size: 20px;
-    font-family: "RobotoLight";
+.home a {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 20px;
+  font-family: "RobotoLight";
 }
-.home a span{
-    margin-right: 7px;
-    color:#ffff;
+.home a span {
+  margin-right: 7px;
+  color: #ffff;
 }
-.home p{
-    color:#fff;
-    margin-left: 3px;
-    font-family: "RobotoLight";
-    font-size: 20px;
+.home p {
+  color: #fff;
+  margin-left: 3px;
+  font-family: "RobotoLight";
+  font-size: 20px;
 }
-.full{
-    width: auto;
-    height: auto;
-    padding: 70px 0px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap:40px
+.full {
+  width: auto;
+  height: auto;
+  padding: 70px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
 }
-.block{
-    width: 770px;
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    box-shadow: 0px 0px 20px #00000045;
-    border-radius: 10px;
+.block {
+  width: 770px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  box-shadow: 0px 0px 20px #00000045;
+  border-radius: 10px;
 }
-.blockPhoto{
-    display: flex;
-    height: auto;
-    width: 100%;
-    border-radius: 10px;
+.blockPhoto {
+  display: flex;
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
 }
-.InPhoto{
-    height: 100%;
-    width: auto;
-    border-radius: 10px;
+.InPhoto {
+  height: 100%;
+  width: auto;
+  border-radius: 10px;
 }
-.InPhoto img{
-    max-width: 100%;
-    border-radius: 10px 10px 0px 0px;
+.InPhoto img {
+  max-width: 100%;
+  border-radius: 10px 10px 0px 0px;
 }
-.blockText{
-    display: flex;
-    height: auto;
-    width: auto;
-    justify-content: flex-start;
-    padding: 35px 25px;
-    position: relative;
-    flex-direction: column;
+.blockText {
+  display: flex;
+  height: auto;
+  width: auto;
+  justify-content: flex-start;
+  padding: 35px 25px;
+  position: relative;
+  flex-direction: column;
 }
-.span{
-    position: absolute;
-    right: 26px;
-    top: -27px;
-    background: #ffe454;
-    padding: 15px;
-    color: #000000c2;
-    text-align: center;
-    border-radius: 6px;
-    transition: 1s;
-    border: 1px solid #949494;
+.span {
+  position: absolute;
+  right: 26px;
+  top: -27px;
+  background: #ffe454;
+  padding: 15px;
+  color: #000000c2;
+  text-align: center;
+  border-radius: 6px;
+  transition: 1s;
+  border: 1px solid #949494;
 }
 .textHeader {
-    display: flex;
-    gap: 18px;
+  display: flex;
+  gap: 18px;
 }
-.textHeader p{
-    font-family: "RobotoLight";
-    color:rgb(42, 42, 42)
+.textHeader p {
+  font-family: "RobotoLight";
+  color: rgb(42, 42, 42);
 }
-.textHeader span{
-    padding-right: 10px;
+.textHeader span {
+  padding-right: 10px;
 }
-.textHeader span i{
-    font-size: 20px;
-    color: #f8d40b;
+.textHeader span i {
+  font-size: 20px;
+  color: #f8d40b;
 }
 .textBottom {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
-.textBottom h2{
-    font-family: "OxygenRegular";
-    line-height: 70px;
-    transition: .7s;
-    font-size: 30px;
+.textBottom h2 {
+  font-family: "OxygenRegular";
+  line-height: 70px;
+  transition: 0.7s;
+  font-size: 30px;
 }
-.textBottom h2:hover{
-    color:#e8c70b;
+.textBottom h2:hover {
+  color: #e8c70b;
 }
-.textBottom p{
-    line-height: 28px;
-    font-family: "RobotoLight";
-    font-size: 16px;
-    color: gray;
+.textBottom p {
+  line-height: 28px;
+  font-family: "RobotoLight";
+  font-size: 16px;
+  color: gray;
 }
-.blockText #discover{
-    padding: 20px;
-    border: 3px solid #c5bcbcb8;
-    width: 150px;
-    border-radius: 30px;
-    margin-top: 20px;
-    text-align: center;
-    color: #504646;
-    transition: .8s;
+.blockText #discover {
+  padding: 20px;
+  border: 3px solid #c5bcbcb8;
+  width: 150px;
+  border-radius: 30px;
+  margin-top: 20px;
+  text-align: center;
+  color: #504646;
+  transition: 0.8s;
 }
-.blockText #discover:hover{
-    border: 3px solid #e6de0cb8;
+.blockText #discover:hover {
+  border: 3px solid #e6de0cb8;
 }
-@media screen and (max-width:790px) {
-    .full{
-        width: auto;
-        padding:50px;
-    }
-    .block{
-        width: auto;
-    }
-    .textBottom h2 {
-        line-height: 50px;
-        font-size: 24px;
-    }
-    .span {
-        right: inherit;
-    }
-} 
+@media screen and (max-width: 790px) {
+  .full {
+    width: auto;
+    padding: 50px;
+  }
+  .block {
+    width: auto;
+  }
+  .textBottom h2 {
+    line-height: 50px;
+    font-size: 24px;
+  }
+  .span {
+    right: inherit;
+  }
+}

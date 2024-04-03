@@ -1,224 +1,221 @@
 .body_contet {
-    width: 100%;
-    display: flex;
-    margin-top: 2;
-    /* padding: 150px 0px; */
-    justify-content: center;
-    align-items: center;
-    background-image: url(https://th.bing.com/th/id/R.1214e8cb32a200b5bef734bd866dc1d3?rik=dEZBQ8Vngau2qg&pid=ImgRaw&r=0);
-    position: relative;
-    z-index: 1;
-    background-attachment: fixed !important;
-    background-position: center center !important;
-    height: calc(100vh - 45px);
-    background-size: cover !important;
+  width: 100%;
+  display: flex;
+  margin-top: 2;
+  /* padding: 150px 0px; */
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://th.bing.com/th/id/R.1214e8cb32a200b5bef734bd866dc1d3?rik=dEZBQ8Vngau2qg&pid=ImgRaw&r=0);
+  position: relative;
+  z-index: 1;
+  background-attachment: fixed !important;
+  background-position: center center !important;
+  height: calc(100vh - 45px);
+  background-size: cover !important;
 }
 @font-face {
-    font-family: "OxygenRegular";
-    src: url(/assets/fons/Oxygen-Regular.ttf);
+  font-family: "OxygenRegular";
+  src: url(fons/Oxygen-Regular.ttf);
 }
 @font-face {
-    font-family: "RobotoLight";
-    src: url(/assets/fons/Roboto-Light.ttf);
+  font-family: "RobotoLight";
+  src: url(fons/Roboto-Light.ttf);
 }
-.body_contet::after{
-    content: " ";
-    background-color: #00000012;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    top: 0px;
+.body_contet::after {
+  content: " ";
+  background-color: #00000012;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0px;
 }
-.container{
-    width: auto;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
+.container {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
 }
-.row h2{
-    color: #fff;
-    font-size: 40px;
-    font-family: "OxygenRegular";
+.row h2 {
+  color: #fff;
+  font-size: 40px;
+  font-family: "OxygenRegular";
 }
-.home{
-    display: flex;
-    margin-top: 20px;
-    text-align: center;
-    justify-content: center;
+.home {
+  display: flex;
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
 }
-.home a{
-    text-decoration: none;
-    color:#ffff;
-    font-size: 20px;
-    font-family: "RobotoLight";
+.home a {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 20px;
+  font-family: "RobotoLight";
 }
-.home a span{
-    margin-right: 7px;
-    color:#ffff;
+.home a span {
+  margin-right: 7px;
+  color: #ffff;
 }
-.home p{
-    color:#fff;
-    margin-left: 3px;
-    font-family: "RobotoLight";
-    font-size: 20px;
+.home p {
+  color: #fff;
+  margin-left: 3px;
+  font-family: "RobotoLight";
+  font-size: 20px;
 }
-.cont{
-    width: auto;
-    height: auto;
-    padding: 20px;
-
+.cont {
+  width: auto;
+  height: auto;
+  padding: 20px;
 }
-.contFull{
-    width: 100%;
-    height: 100%;
-    padding: 0px;
-    display: flex;
-    justify-content: center;
+.contFull {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
 }
-.textfull{
-    width: 25%;
-    padding: 0px 20px;
+.textfull {
+  width: 25%;
+  padding: 0px 20px;
 }
-.contFull ul{
-    width: auto;
-    background: #ffffff;
-    height: auto;
-    padding: 40px 0px;
-    list-style-type: none;
+.contFull ul {
+  width: auto;
+  background: #ffffff;
+  height: auto;
+  padding: 40px 0px;
+  list-style-type: none;
 }
-.contFull ul li{
-    margin-bottom: 25px;
+.contFull ul li {
+  margin-bottom: 25px;
 }
-.contFull h4{
-    font-size: 25px;
-    font-family: "OxygenRegular";
-    line-height: 50px;
+.contFull h4 {
+  font-size: 25px;
+  font-family: "OxygenRegular";
+  line-height: 50px;
 }
-.contFull span{
-    font-family: "RobotoLight";
-    font-size: 17px;
-    line-height: 25px;
-    font-weight: bold;
-    color: rgb(158, 154, 154);
+.contFull span {
+  font-family: "RobotoLight";
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: bold;
+  color: rgb(158, 154, 154);
 }
-.formfull{
-    background-image: url(https://i1.wp.com/www.courageouschristianfather.com/wp-content/uploads/2019/10/FarmField-N1906P37006H.jpg?fit=1120%2C715&ssl=1);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 50%;
-    box-shadow: 0px 0px 20px #0000004f;
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.formfull {
+  background-image: url(https://i1.wp.com/www.courageouschristianfather.com/wp-content/uploads/2019/10/FarmField-N1906P37006H.jpg?fit=1120%2C715&ssl=1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  box-shadow: 0px 0px 20px #0000004f;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.formfull form{
-    border-radius: 20px;
-    width: 60%;
-    height: 100%;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    backdrop-filter: blur(2px);
-    align-items: center;
+.formfull form {
+  border-radius: 20px;
+  width: 60%;
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  backdrop-filter: blur(2px);
+  align-items: center;
 }
-.formfull form h1{
-    color: #ffffffba;
+.formfull form h1 {
+  color: #ffffffba;
 }
-.formfull form .namef{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    color:black;
+.formfull form .namef {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: black;
 }
-.formfull form input{
-    height: 40px;
-    box-sizing: border-box;
-    font-family: "RobotoLight";
-    color: #ffffff;
-    width: 100%;
-    border-radius: 10px;
-    outline: unset;
-    border: 2px solid #ffffff4a;
-    padding: 5px;
-    background: none;
+.formfull form input {
+  height: 40px;
+  box-sizing: border-box;
+  font-family: "RobotoLight";
+  color: #ffffff;
+  width: 100%;
+  border-radius: 10px;
+  outline: unset;
+  border: 2px solid #ffffff4a;
+  padding: 5px;
+  background: none;
 }
-.formfull form textarea{
-    width: 100%;
-    height: 140px;
-    box-sizing: border-box;
-    padding: 10px;
-    font-size: 15px;
-    border-radius: 10px;
-    background: none;
-    border: 2px solid #ffffff4a;
-    color:#fff;
-    outline: none;
-    font-family: "RobotoLight";
+.formfull form textarea {
+  width: 100%;
+  height: 140px;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  background: none;
+  border: 2px solid #ffffff4a;
+  color: #fff;
+  outline: none;
+  font-family: "RobotoLight";
 }
-.formfull form .namef .boxin{
-    
-    box-sizing: border-box;
-    color:#fff;
-    width: 44%;
-    padding: 6px;
-    height: 40px;
-    border-radius: 10px;
-    outline: unset;
-    border: 2px solid #ffffff4a;
-    font-family: "RobotoLight";
+.formfull form .namef .boxin {
+  box-sizing: border-box;
+  color: #fff;
+  width: 44%;
+  padding: 6px;
+  height: 40px;
+  border-radius: 10px;
+  outline: unset;
+  border: 2px solid #ffffff4a;
+  font-family: "RobotoLight";
 }
-.formfull form button{
-    padding: 16px;
-    font-size: 18px;
-    border-radius: 25px;
-    width: 100%;
-    border: 2px solid #ffffff4a;
-    background: #00ff0800;
-    font-family: "RobotoLight";
-    color:#fff;
+.formfull form button {
+  padding: 16px;
+  font-size: 18px;
+  border-radius: 25px;
+  width: 100%;
+  border: 2px solid #ffffff4a;
+  background: #00ff0800;
+  font-family: "RobotoLight";
+  color: #fff;
 }
 ::placeholder {
-    color: rgb(255, 255, 255);
-    opacity: .7; /* Firefox */
+  color: rgb(255, 255, 255);
+  opacity: 0.7; /* Firefox */
+}
+@media screen and (max-width: 810px) {
+  .contFull {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
-@media screen and (max-width:810px) {
-    .contFull{
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+  .textfull {
+    width: 100%;
+  }
+  .contFull ul {
+    width: auto;
+  }
+  .formfull {
+    width: 100%;
+    padding: 0px;
+    height: 100%;
+  }
+  .formfull form {
+    height: 450px;
+    width: 70%;
+  }
+  .formfull form .namef {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .formfull form .namef .boxin {
+    width: 100%;
+  }
+  @media screen and (max-width: 390px) {
+    .formfull form h1 {
+      font-size: 30px;
     }
-    .textfull{
-        width: 100%;
-
-    }
-    .contFull ul {
-        width: auto;
-    }
-    .formfull{
-        width: 100%;
-        padding:0px;
-        height: 100%;
-    }
-    .formfull form{
-        height: 450px;
-        width: 70%;
-    }
-    .formfull form .namef {
-        width: 100%;
-        flex-direction: column;
-        gap: 10px;
-    }
-    .formfull form .namef .boxin{
-        width: 100%;
-    }
-    @media screen and (max-width:390px){
-        .formfull form h1{
-            font-size: 30px;
-        }
-    }
+  }
 }

@@ -1,10 +1,10 @@
 @font-face {
   font-family: "OxygenRegular";
-  src: url(/assets/fons/Oxygen-Regular.ttf);
+  src: url(fons/Oxygen-Regular.ttf);
 }
 @font-face {
   font-family: "RobotoLight";
-  src: url(/assets/fons/Roboto-Light.ttf);
+  src: url(fons/Roboto-Light.ttf);
 }
 * {
   margin: 0;
@@ -17,7 +17,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/assets/img/purple-8614655.jpg);
+  background-image: url(img/purple-8614655.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -1,8 +1,8 @@
 @font-face {
-    font-family: "OxygenRegular";
-    src: url(/assets/fons/Oxygen-Regular.ttf);
+  font-family: "OxygenRegular";
+  src: url(fons/Oxygen-Regular.ttf);
 }
 @font-face {
-    font-family: "RobotoLight";
-    src: url(/assets/fons/Roboto-Light.ttf);
+  font-family: "RobotoLight";
+  src: url(fons/Roboto-Light.ttf);
 }
