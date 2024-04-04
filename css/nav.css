@@ -151,6 +151,9 @@ nav .drop {
   flex-direction: column;
   border-radius: 0px 0px 5px 5px;
 }
+#hide22 {
+  border-radius: 0px 0px 10px 10px;
+}
 #sidebar_drop {
   display: none;
   position: absolute;

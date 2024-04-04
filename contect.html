@@ -12,7 +12,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <script src="js/nav.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -28,7 +27,7 @@
             <a class="hide" id="active" href="index.html">HOME</a>
           </li>
           <li class="menu">
-            <a class="hide" onclick="dropDownMenu()" id="dropdown" href="#"
+            <a class="hide" id="dropdown" href="#"
               >PAGES<span
                 ><i
                   id="down"
@@ -70,7 +69,7 @@
             <a class="hide" href="login.html">LOGIN</a>
           </li>
           <li class="show_btn">
-            <a id="show" onclick="showSideBar()" href="#"
+            <a id="show" href="#"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="24"
@@ -85,7 +84,7 @@
         </ul>
         <ul id="sidebar" class="sidebar">
           <li class="hide_btn">
-            <a onclick="hideSidebar()" href="#"
+            <a id="hideSidebar1" href="#"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="24"
@@ -99,7 +98,7 @@
           </li>
           <li class="hide_menu"><a href="index.html">Home</a></li>
           <li id="relative" class="hide_menu">
-            <a onclick="sidebarDown()" id="sidebar_down" href="#"
+            <a id="sidebar_down" href="#"
               >PAGES
               <span
                 ><i
@@ -121,7 +120,7 @@
                       >Get in touch</a
                     >
                   </li>
-                  <li>
+                  <li id="hide22">
                     <a onclick="hidedrops()" href="ErorrPage.html"
                       >Error page</a
                     >
@@ -249,5 +248,8 @@
         </div>
       </div>
     </div>
+    <script src="js/nav.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/toggle.js"></script>
   </body>
 </html>
