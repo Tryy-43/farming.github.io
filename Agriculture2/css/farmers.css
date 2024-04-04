@@ -1,0 +1,101 @@
+.body_contet {
+  width: 100%;
+  display: flex;
+  margin-top: 2;
+  padding: 150px 0px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://validthemes.net/site-template/farmi/assets/img/banner/12.jpg);
+  position: relative;
+  z-index: 1;
+  background-attachment: fixed !important;
+  background-position: center center !important;
+  height: calc(100vh - 45px);
+  background-size: cover !important;
+}
+.body_contet::after {
+  content: " ";
+  background-color: #00000012;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0px;
+}
+.container {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.photoRow {
+  height: auto;
+  width: auto;
+  padding: 50px 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
+}
+.itemss {
+  width: 270px;
+  height: auto;
+  /* border-radius: 10px; */
+  background: rgb(255 255 255 / 0%);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+}
+.allContent {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.photoTop {
+  width: auto;
+  height: auto;
+  background: rgb(255, 255, 255);
+}
+.photoTop img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.textButtom {
+  justify-content: center;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  height: 108px;
+  line-height: 36px;
+  align-items: center;
+  background: #e91e6300;
+}
+.textButtom p {
+  font-family: "RobotoLight";
+  font-size: 18px;
+  color: gray;
+  font-weight: bold;
+}
+.textButtom h3 {
+  font-family: "OxygenRegular";
+  font-size: 26px;
+  font-weight: 600;
+}
+@media screen and (max-width: 960px) {
+  .photoRow {
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (max-width: 660px) {
+  .photoRow {
+    grid-template-columns: auto;
+  }
+  .itemss {
+    width: auto;
+  }
+}
