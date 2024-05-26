@@ -128,11 +128,80 @@
   display: flex;
   justify-content: center;
 }
+.detail {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  height: auto;
+  background: rgb(197 197 197 / 38%);
+  justify-content: center;
+  padding: 40px 0;
+}
+.textdetail {
+  width: 727px;
+  height: auto;
+  background: rgb(255, 255, 255);
+  box-shadow: 1px 1px 11px gray;
+  padding: 20px;
+}
+#work {
+  font-size: 2.2rem;
+  /* line-height: 84px; */
+  margin-bottom: 20px;
+}
+.textcon {
+  width: 100%;
+  height: auto;
+  background: rgb(255, 255, 255);
+}
+.textcon h2,
+h3 {
+  font-family: "OxygenRegular";
+}
+.firstrow {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.textcon p {
+  font-family: "RobotoLight";
+  line-height: 30px;
+}
+.firstrow {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  justify-content: space-between;
+  line-height: 45px;
+}
+#coll,
+#coll2,
+#coll3 {
+  display: none;
+}
+.firstrow::before {
+  content: "";
+  display: flex;
+  position: absolute;
+  border-top: 3px solid cyan;
+  width: 0;
+  transition: 0.5s;
+  bottom: 0;
+  border-top: 2px solid #00000063;
+}
+.firstrow:hover:before {
+  width: 100%;
+}
 @media screen and (max-width: 930px) {
   .content2 {
     height: auto;
     width: 70%;
     flex-direction: column;
+  }
+  .textdetail {
+    width: 73%;
   }
   .textContent {
     height: auto;
