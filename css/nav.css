@@ -1,6 +1,6 @@
 @font-face {
   font-family: "RobotoBlack";
-  src: url(fons/Roboto-Medium.ttf);
+  src: url(/assets/fons/Roboto-Medium.ttf);
 }
 * {
   padding: 0px;

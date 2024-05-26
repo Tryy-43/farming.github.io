@@ -1,126 +1,127 @@
 .body_contet {
-  width: 100%;
-  display: flex;
-  margin-top: 2;
-  /* padding: 150px 0px; */
-  justify-content: center;
-  align-items: center;
-  background-image: url(https://validthemes.net/site-template/farmi/assets/img/banner/7.jpg);
-  position: relative;
-  z-index: 1;
-  background-attachment: fixed !important;
-  background-position: center center !important;
-  height: calc(100vh - 45px);
-  background-size: cover !important;
+    width: 100%;
+    display: flex;
+    margin-top: 2;
+    /* padding: 150px 0px; */
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://validthemes.net/site-template/farmi/assets/img/banner/7.jpg);
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed !important;
+    background-position: center center !important;
+    height: calc(100vh - 45px);
+    background-size: cover !important;
 }
 @font-face {
-  font-family: "OxygenRegular";
-  src: url(fons/Oxygen-Regular.ttf);
+    font-family: "OxygenRegular";
+    src: url(/assets/fons/Oxygen-Regular.ttf);
 }
 @font-face {
-  font-family: "RobotoLight";
-  src: url(fons/Roboto-Light.ttf);
+    font-family: "RobotoLight";
+    src: url(/assets/fons/Roboto-Light.ttf);
 }
-.body_contet::after {
-  content: " ";
-  background-color: #00000012;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  top: 0px;
+.body_contet::after{
+    content: " ";
+    background-color: #00000012;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0px;
 }
-.container {
-  width: auto;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
+.container{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
 }
-.row h2 {
-  color: #fff;
-  font-size: 40px;
-  font-family: "OxygenRegular";
+.row h2{
+    color: #fff;
+    font-size: 40px;
+    font-family: "OxygenRegular";
 }
-.home {
-  display: flex;
-  margin-top: 20px;
-  text-align: center;
-  justify-content: center;
+.home{
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
 }
-.home a {
-  text-decoration: none;
-  color: #ffff;
-  font-size: 20px;
-  font-family: "RobotoLight";
+.home a{
+    text-decoration: none;
+    color:#ffff;
+    font-size: 20px;
+    font-family: "RobotoLight";
 }
-.home a span {
-  margin-right: 7px;
-  color: #ffff;
+.home a span{
+    margin-right: 7px;
+    color:#ffff;
 }
-.home p {
-  color: #fff;
-  margin-left: 3px;
-  font-family: "RobotoLight";
-  font-size: 20px;
+.home p{
+    color:#fff;
+    margin-left: 3px;
+    font-family: "RobotoLight";
+    font-size: 20px;
 }
-.GallaPhoto {
-  width: auto;
-  height: auto;
-  padding: 40px 20px;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: center;
-  align-items: center;
-  grid-gap: 20px;
+.GallaPhoto{
+    width: auto;
+    height: auto;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    grid-gap:20px
 }
-.BoxItem {
-  width: 270px;
-  height: auto;
-  padding: 14px;
-  border: 2px solid #00000099;
-  box-shadow: 0px 0px 8px black;
+.BoxItem{
+    width: 270px;
+    height: auto;
+    padding: 14px;
+    border: 2px solid #00000099;
+    box-shadow: 0px 0px 8px black;
 }
-.photoImg {
-  width: 100%;
-  height: auto;
-  position: relative;
-  overflow: hidden;
+.photoImg{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+
 }
-.photoImg img {
-  max-width: 100%;
+.photoImg img{
+    max-width: 100%;
 }
-.contentAbs {
-  position: absolute;
-  width: 100%;
-  height: 98%;
-  transition: 0.8s;
-  top: 0px;
-  left: 0px;
-  background: #00000000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #ecf40f00;
-  font-family: "OxygenRegular";
+.contentAbs{
+    position: absolute;
+    width: 100%;
+    height: 98%;
+    transition: .8s;
+    top: 0px;
+    left: 0px;
+    background: #00000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ecf40f00;
+    font-family: "OxygenRegular";
 }
 .contentAbs:hover {
-  background: #00000036;
-  color: #edf40f;
+    background: #00000036;
+    color: #edf40f;
 }
-.contentAbs:hover img {
-  scale: 1.1;
+.contentAbs:hover img{
+    scale:1.1;
 }
-@media screen and (max-width: 990px) {
-  .GallaPhoto {
-    grid-template-columns: auto auto;
-  }
-  .BoxItem {
-    width: auto;
-  }
+@media screen and (max-width:990px) {
+    .GallaPhoto{
+        grid-template-columns: auto auto;
+    }
+    .BoxItem{
+        width: auto;
+    }
 }
-@media screen and (max-width: 500px) {
-  .GallaPhoto {
-    grid-template-columns: auto;
-  }
+@media screen and (max-width:500px) {
+    .GallaPhoto{
+        grid-template-columns: auto;
+    }
 }
